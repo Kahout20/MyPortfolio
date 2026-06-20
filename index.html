@@ -63,9 +63,10 @@
     /* HERO */
     .hero {
       min-height: 100vh;
-      display: flex; flex-direction: column; justify-content: center;
+      display: flex; flex-direction: column; justify-content: center;center; align-items: center;
       padding: 8rem 5% 5rem;
       position: relative; overflow: hidden;
+            text-align: center;
     }
     .hero::before {
       content: '';
@@ -92,6 +93,7 @@
       font-size: clamp(1rem, 2vw, 1.25rem);
       color: var(--slate); max-width: 560px;
       font-weight: 300; margin-bottom: 2.5rem; line-height: 1.7;
+            text-align: center;
     }
 
     /* MODE TOGGLE — the signature element */
@@ -122,7 +124,7 @@
       background: var(--teal); color: var(--navy);
     }
 
-    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap:  justify-content: center; }
     .btn-primary {
       background: var(--teal); color: var(--navy);
       padding: 0.8rem 2rem; border-radius: 8px;
@@ -617,7 +619,7 @@
       </div>
       <div class="badge">
         <span class="badge-icon">⚡</span>
-        Deputy Secretary, Finance — NASCON '25 & '26
+        Deputy Secretary, Finance — NASCON '26
       </div>
       <div class="badge">
         <span class="badge-icon">🎓</span>
